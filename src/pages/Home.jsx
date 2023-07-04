@@ -6,6 +6,7 @@ import icon01 from '../assets/images/icon01.png';
 import icon02 from '../assets/images/icon02.png';
 import icon03 from '../assets/images/icon03.png';
 import { BsArrowRight } from 'react-icons/bs';
+import About from '../components/About/About';
 
 const Home = () => {
   return (
@@ -67,6 +68,8 @@ const Home = () => {
         </div>
       </section>
       {/* hero section end*/}
+
+      {/* Service section */}
       <section>
         <div className="container">
           <div className="lg:w-[470px] mx-auto">
@@ -148,6 +151,9 @@ const Home = () => {
           </div>
         </div>
       </section>
+      {/* Service section end*/}
+
+      <About />
     </>
   );
 };
